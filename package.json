@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-js-hw-11/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "git add .&git commit -m 'update'&git push"
   },
   "devDependencies": {
     "glob": "^11.0.0",
@@ -17,6 +18,8 @@
   "author": "Oleksii Kyryk <kirikoleksiy112@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.11.0",
+    "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }

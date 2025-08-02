@@ -119,7 +119,7 @@ main:has(.back-link) {
   background: #6c8cff;
 }
 
-.gallery-list {
+.gallery {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

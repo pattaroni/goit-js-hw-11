@@ -1,9 +1,9 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const galleryList = document.querySelector('.gallery-list');
+const galleryList = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
-const lightbox = new SimpleLightbox('.gallery-list .gallery-link', {
+const lightbox = new SimpleLightbox('.gallery .gallery-link', {
   captions: true,
   captionsData: 'alt',
   captionDelay: 250,

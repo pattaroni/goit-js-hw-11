@@ -12,7 +12,14 @@ const formElem = document.querySelector('.form');
 
 formElem.addEventListener('submit', e => {
   e.preventDefault();
-  const query = formElem.elements['search-text'].value;
+  const query = formElem.elements['search-text'].value.trim();
+  if (!query) {
+    iziToast.error({
+      message: 'Please enter a search query',
+      position: 'topRight',
+    });
+    return;
+  }
   handleSearch(query);
 });
 
